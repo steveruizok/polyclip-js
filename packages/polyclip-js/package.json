@@ -2,7 +2,7 @@
   "name": "polyclip-js",
   "author": "Steve Ruiz",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript port of the polyclip library",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
