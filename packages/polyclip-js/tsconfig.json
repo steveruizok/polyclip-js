@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"resolveJsonModule": true,
+		"downlevelIteration": true,
+		"esModuleInterop": true,
+		"typeRoots": ["node_modules/@types"],
+		"types": ["node", "@types/jest"]
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "polyclip-js-monorepo",
+  "author": "Steve Ruiz",
+  "license": "MIT",
+  "version": "0.0.1",
+  "workspaces": [
+    "example",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  }
+}
