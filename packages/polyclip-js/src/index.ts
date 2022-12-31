@@ -15,19 +15,21 @@ export function clipXY(
 	const pp: Polygon[] = []
 	PP.forEach((polygon) => {
 		const P = new Polygon()
-		polygon.forEach((pair) => P.newVertex(new Point(pair.x, pair.y)), true)
+		polygon.forEach((pair) => P.newVertex(new Point(pair.x, pair.y), true))
 		if (P.root !== null) pp.push(P)
 	})
 
 	const qq: Polygon[] = []
 	QQ.forEach((polygon) => {
 		const Q = new Polygon()
-		polygon.forEach((pair) => Q.newVertex(new Point(pair.x, pair.y)), true)
+		polygon.forEach((pair) => Q.newVertex(new Point(pair.x, pair.y), true))
 		if (Q.root !== null) qq.push(Q)
 	})
 
-	const out: { x: number; y: number }[][] = []
 	const result = clipPolygons(pp, qq, union, debug)
+
+	const out: { x: number; y: number }[][] = []
+
 	result.forEach((polygon) => {
 		const points: { x: number; y: number }[] = []
 		for (const vertex of polygon.vertices(IteratorType.ALL)) {
@@ -48,14 +50,14 @@ export function clipArray(
 	const pp: Polygon[] = []
 	PP.forEach((polygon) => {
 		const P = new Polygon()
-		polygon.forEach((pair) => P.newVertex(new Point(pair[0], pair[1])), true)
+		polygon.forEach((pair) => P.newVertex(new Point(pair[0], pair[1]), true))
 		if (P.root !== null) pp.push(P)
 	})
 
 	const qq: Polygon[] = []
 	QQ.forEach((polygon) => {
 		const Q = new Polygon()
-		polygon.forEach((pair) => Q.newVertex(new Point(pair[0], pair[1])), true)
+		polygon.forEach((pair) => Q.newVertex(new Point(pair[0], pair[1]), true))
 		if (Q.root !== null) qq.push(Q)
 	})
 

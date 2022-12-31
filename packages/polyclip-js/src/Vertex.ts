@@ -16,17 +16,9 @@ export class Vertex {
 	label = IntersectionLabel.NONE // type of intersection vertex
 	enex = EntryExitLabel.NEITHER // entry/exit "flag"
 
-	constructor(x: number, y: number)
-	constructor(q: Point, alpha?: number)
-	constructor(x?: number | Point, y?: number) {
-		if (x instanceof Point) {
-			this.p = Point.From(x)
-			this.alpha = y ?? -1
-		} else if (x === undefined) {
-			this.p = new Point(0, 0)
-		} else {
-			this.p = new Point(x, y!)
-		}
+	constructor(q: Point, alpha = -1) {
+		this.p = Point.From(q)
+		this.alpha = alpha
 	}
 
 	insertVertex(curr: Vertex, alpha = -1) {

@@ -7,9 +7,6 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/steveruizok/polyclip-js"
@@ -28,7 +25,7 @@
   },
   "scripts": {
     "dev": "tsup ./src/index.ts --watch --dts --sourcemap --format esm,cjs",
-    "build": "tsup ./src/index.ts --dts --sourcemap --format esm,cjs",
+    "build": "tsup ./src/index.ts --tsconfig ./tsconfig.build.json --dts --sourcemap --format esm,cjs",
     "test": "jest"
   },
   "devDependencies": {
