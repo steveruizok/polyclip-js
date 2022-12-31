@@ -2,9 +2,33 @@
   "name": "polyclip-js",
   "author": "Steve Ruiz",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "A JavaScript port of the polyclip library",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steveruizok/polyclip-js"
+  },
+  "keywords": [
+    "polyclip",
+    "polygon",
+    "clip",
+    "intersection",
+    "union",
+    "difference",
+    "xor"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "scripts": {
     "dev": "tsup ./src/index.ts --watch --dts --sourcemap --format esm,cjs",
+    "build": "tsup ./src/index.ts --dts --sourcemap --format esm,cjs",
     "test": "jest"
   },
   "devDependencies": {
