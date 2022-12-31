@@ -1,0 +1,39 @@
+<svg width="570" height="510" viewBox="0 0 570 510" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_30_2)">
+<path d="M120 90V210H150V120H240V90H120Z" fill="#7747FF"/>
+<path d="M300 90V120H270V90H300Z" fill="#7747FF"/>
+<path d="M420 150H390V120H420V150Z" fill="#7747FF"/>
+<path d="M420 360H390V330H420V360Z" fill="#7747FF"/>
+<path d="M180 390V360H210V390H180Z" fill="#7747FF"/>
+<path d="M120 390V360H150V390H120Z" fill="#7747FF"/>
+<path d="M120 300H150V330H120V300Z" fill="#7747FF"/>
+<path d="M120 240H150V270H120V240Z" fill="#7747FF"/>
+<path d="M180 330H210V300H180V330Z" fill="#7747FF"/>
+<path d="M180 240H210V270H180V240Z" fill="#7747FF"/>
+<path d="M180 150H240V180H210V210H180V150Z" fill="#7747FF"/>
+<path d="M300 150V180H270V150H300Z" fill="#7747FF"/>
+<path d="M450 360H570V120H450V150H540V330H450V360Z" fill="#7747FF"/>
+<path d="M450 180H480V300H450V180Z" fill="#7747FF"/>
+<path opacity="0.5" d="M120 90H420V390H120V90Z" stroke="#CC00FF" stroke-width="5"/>
+<path opacity="0.5" d="M150 120H390V360H150V120Z" stroke="#CC00FF" stroke-width="5"/>
+<path opacity="0.5" d="M180 330V150H360V330H180Z" stroke="#CC00FF" stroke-width="5"/>
+<path opacity="0.5" d="M330 300V180H210V300H330Z" stroke="#CC00FF" stroke-width="5"/>
+<path opacity="0.5" d="M570 120V360H450V120H570Z" stroke="#CC00FF" stroke-width="5"/>
+<path opacity="0.5" d="M480 150V330H540V150H480Z" stroke="#CC00FF" stroke-width="5"/>
+<path opacity="0.5" d="M240 210V60H90V210H240Z" stroke="#FF9900" stroke-width="5"/>
+<path opacity="0.5" d="M270 240H60V30H270V240Z" stroke="#FF9900" stroke-width="5"/>
+<path opacity="0.5" d="M300 270H30V0H300V270Z" stroke="#FF9900" stroke-width="5"/>
+<path opacity="0.5" d="M210 300H0V510H210V300Z" stroke="#FF9900" stroke-width="5"/>
+<path opacity="0.5" d="M180 330H30V480H180V330Z" stroke="#FF9900" stroke-width="5"/>
+<path opacity="0.5" d="M150 360H60V450H150V360Z" stroke="#FF9900" stroke-width="5"/>
+<path opacity="0.5" d="M120 390H90V420H120V390Z" stroke="#FF9900" stroke-width="5"/>
+<path opacity="0.5" d="M360 120V360H570V120H360Z" stroke="#FF9900" stroke-width="5"/>
+<path opacity="0.5" d="M390 150V330H540V150H390Z" stroke="#FF9900" stroke-width="5"/>
+<path opacity="0.5" d="M510 180V300H420V180H510Z" stroke="#FF9900" stroke-width="5"/>
+</g>
+<defs>
+<clipPath id="clip0_30_2">
+<rect width="570" height="510" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -3,12 +3,16 @@
 This is a TypeScript implementation of "polyclip" by the authors of
 [Clipping simple polygons with degenerate intersections](https://www.sciencedirect.com/science/article/pii/S259014861930007X): Erich L. Foster, Kai Hormann, and Romeo Traian Popa.
 
+It comes in at **2.82kb minified and gzipped**.
+
 Polyclip was a c++ implementation of their extension of the
 Greiner-Hormann clipping algorithm, which **computes the
 intersection (or union) of two non-self-intersecting complex
 polygons**, with possibly multiple and nested components, even in
 case of degenerate intersections (vertex on edge, overlapping
 edges, etc.).
+
+<img src="./demo.svg" width="420" height="320">
 
 ## Installation
 
