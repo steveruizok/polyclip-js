@@ -113,6 +113,7 @@ of a vertex, followed by a "," or a ";", where the "," is used to
 separate the vertices of a polygon component and ";" marks the end
 of the component. For example, the following 7 lines:
 
+```text
 0 0,
 1 0,
 0 1;
@@ -120,6 +121,7 @@ of the component. For example, the following 7 lines:
 1.5 -0.5,
 1.5 1.5,
 -0.5 1.5;
+```
 
 describe a polygon with 2 components, a right triangle inside a
 square. All vertices in one file must be different from each
