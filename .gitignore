@@ -127,3 +127,4 @@ dist
 .pnp.*
 
 .turbo
+.DS_Store
